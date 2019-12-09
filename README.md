@@ -1,4 +1,4 @@
-# tampering_detection
+# Image Tampering Detection
 Detecting tampered/fake images using Deep Learning
 
 This is a rough implementation of the following forensics challenge.
@@ -12,7 +12,7 @@ Download the dataset from here: http://web.archive.org/web/20171013200331/http:/
 
 Phase1- Using ELA (Error Level Analysis) and standard CNN architecture using softmax to just detect whether an image is real or fake.
 
-Phase2- Finding the exact tampered region of an image using transfer learning.
+Phase2- Finding the exact tampered region of an image using transfer learning.(ELA+UNET,SRM+Fake Images)
 
 Results:
 Phase1- F1 score=0.88 
